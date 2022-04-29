@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Denzel</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/css/all.css"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+</head>
+
+<body>
+
+
+    <!-- navegação -->
+    <header>
+        <div>
+            <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+                <div class="navbar-portfolio">
+                    <a class="navbar-item" href="index.html">
+                        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                    </a>
+                </div>
+
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="./index.html">
+                            Inicio
+                        </a>
+
+                        <a class="navbar-item" href="./contato.html">
+                            Contato
+                        </a>
+                    </div>
+            </nav>
+        </div>
+    </header>
+    <!-- card esquerdo -->
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-4">
+
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="imagem-perfil.jpg" alt="Placeholder image">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="content">
+                                <h5 class="title is-5">Denzel Washington</h4>
+
+                                    <span class="tag is-dark">Desenvolvedor Front End Jr</span>
+
+                            </div>
+
+                            <h5>(21) 98078-3640</h5>
+
+                            <h5>denzelwashingtonsantana@gmail.com</h5>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- Sobre mim -->
+                <div class="column is-9">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Sobre mim
+                            </p>
+                            <button class="card-header-icon" aria-label="more options">
+                                <span class="icon">
+                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                Salve! Me chamo Denzel tenho 21 anos, sou do RJ - desenvolvedor e amante de tecnologia.
+                                No momento estou estudando com o foco em atingir o nível de fullstack, porém busco
+                                oportunidades e atividades na prática para adquirir todo tipo de experiência.
+                            </div>
+                        </div>
+
+                    </div>
+                    <br>
+                    <!-- Experiencias -->
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Experiências
+                            </p>
+                            <button class="card-header-icon" aria-label="more options">
+                                <span class="icon">
+                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <div class="columns">
+                                    <div class="column">
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded"
+                                                src="data:image/png;base64,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">
+                                        </figure>
+                                    </div>
+                                    <div class="column is-9">
+                                        <p class="title is-5">Javascript Developer <span class="tag is-dark">Empresa
+                                                Chamada X</span></p>
+
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, illo
+                                            nihil molestiae consequuntur reprehenderit corrupti placeat, animi ad veniam
+                                            fuga sed quia optio. Cum ab aspernatur dolor? Suscipit, provident itaque
+                                            autem nobis hic eum, iure quidem sunt distinctio cumque laboriosam!</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="columns">
+                                    <div class="column">
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded"
+                                                src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/ruby-on-rails-512.png">
+                                        </figure>
+                                    </div>
+                                    <div class="column is-9">
+                                        <p class="title is-5">Ruby on Rails Developer <span class="tag is-dark">Empresa
+                                                Chamada Y</span> </p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quia vero
+                                            enim corrupti eveniet, suscipit reiciendis itaque accusantium ullam nesciunt
+                                            harum eius nobis quo nemo repellat! Quo reiciendis quasi harum officiis nisi
+                                            ratione, voluptatibus, maxime similique, illum officia facere excepturi.</p>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <br>
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Formação
+                            </p>
+                            <button class="card-header-icon" aria-label="more options">
+                                <span class="icon">
+                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <h5 class="title is-5">Javascript Full Stack em 8 Semanas</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo placeat doloribus omnis
+                                    optio eaque officia a distinctio ipsam minima magni sint, quo magnam ex!
+                                    Perspiciatis eius impedit alias sit ipsa unde sed error cum! Obcaecati dolor rem
+                                    reiciendis consequuntur inventore?</p>
+
+                                <h5 class="title is-5">HTML + CSS Completo</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur et distinctio
+                                    quae quod eaque, incidunt nostrum, culpa commodi accusantium quaerat id sunt. Odio
+                                    doloribus quod eos. Ex minus, unde quas commodi possimus quo repellat rem pariatur
+                                    ullam laudantium autem nulla!</p>
+
+
+                            </div>
+
+
+</body>
+
+</html>
